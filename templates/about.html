@@ -1,190 +1,62 @@
-{% extends "base.html" %}
-{% block content %}      
-    <h2>About Page</h2>
-    <p>
-        The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest in
-        recapturing his long lost family inheritance. (Thorin's grandfather had been the king of the Lonely Mountain when Smaug
-        came and took it.) Remembering that he had once known an adventurous Hobbit on his travels in the Shire, Gandalf decided
-        to add Bilbo to their company because he knew that stealth and cunning were preferable to force. Gandalf also believed
-        that someone like Bilbo could keep the sometimes prideful and stubborn Dwarves from rash action. The superstitious
-        Dwarves also considered thirteen to be an unlucky number, and as Gandalf had planned to leave on other business,
-        welcomed a fourteenth to fill into their party.
-    </p>
-    
-     <div class="row featurette">
-         <div class="col-md-7">
-             <h3>Thorin Oakenshield</h3>
-            <p>
-                In the year TA 2746, Thorin II was born to Dwarven prince Thráin II in the mountain city of The Lonely Mountain.
-                Early in his youth, he and the other Dwarves of the Lonely Mountain were forced to flee by the dragon Smaug in TA
-                2770. While in exile, he quickly grew to become a capable warrior. This was demonstrated when he participated in the
-                Battle of Azanulbizar in TA 2799. He marched with one of the Dwarven armies beneath the East-gate of Moria. At some
-                point in the fighting, his shield broke, and using an oaken tree branch found on the floor as a shield, he gained
-                the epithet "Oakenshield," which would remain with him even in death.
-            </p>
-         </div>
-         <div class="col-md-5">
-             <img src="https://static.wikia.nocookie.net/lotr/images/e/e6/Thorin_king_under_the_mountain_by_gravity_zero-ddur2td.jpg" alt="">
-         </div>     
-   </div>
+        {% extends "base.html" %}
+        {% block content %}
 
-    <div class="row featurette">
-        <div class="col-md-5">
-            <img src="https://images6.fanpop.com/image/photos/33300000/Fili-and-Kili-fili-kili-and-the-others-33313243-800-1000.png" alt="">
-        </div>
-        <div class="col-md-7">
-            <h3>Fili and Kili</h3>
+            <h2>{{ page_title }}</h2>
             <p>
-                Fíli and Kíli were nephews of Thorin, who was the elder brother of their mother Dís. They were also nephews of
-                Frerin, grandsons of Thráin II, and great-grandsons of Thrór. Fíli's most distinguishing feature was his long nose,
-                the longest of any of the Dwarves in Thorin's company.
+                The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest in
+                recapturing his long lost family inheritance. (Thorin's grandfather had been the king of the Lonely Mountain when
+                Smaug came and took it.) Remembering that he had once known an adventurous Hobbit on his travels in the Shire,
+                Gandalf decided to add Bilbo to their company because he knew that stealth and cunning were preferable to force.
+                Gandalf also believed that someone like Bilbo could keep the sometimes prideful and stubborn Dwarves from rash
+                action. The superstitious Dwarves also considered thirteen to be an unlucky number, and as Gandalf had planned to
+                leave on other business, welcomed a fourteenth to fill into their party.
             </p>
-        </div>
-    
-    
-    <div class="row featurette">
-         <div class="col-md-7">
-             <h3>Óin</h3>
-            <p>
-                Óin was the older brother of Glóin, cousin of Dwalin and Balin, and uncle of Gimli. Oin's uncle was King Fundin, the
-                father of Balin and Dwalin. He usually wore a brown-hooded cloak when travelling. Óin fought in the Battle of
-                Azanulbizar along with Thorin Oakenshield, and in TA 2941 joined with Thorin and Company on the quest to reclaim the
-                Lonely Mountain wearing a brown hood
-            </p>
-         </div>
-         <div class="col-md-5">
-             <img src="https://scontent-lhr8-2.xx.fbcdn.net/v/t1.0-9/10934055_352977548237982_1816508696106207399_n.jpg?_nc_cat=105&ccb=3&_nc_sid=e007fa&_nc_ohc=gTwgc3NxEvsAX-nvwVC&_nc_ht=scontent-lhr8-2.xx&oh=576bf87f89ddfbc96d3fd66a5c4de85c&oe=605C86C4" alt="">
-         </div>     
-   </div>
-    
-   
-   <div class="row featurette">
-        <div class="col-md-5">
-            <img src="https://pbs.twimg.com/media/CYD5bq9WEAEUDS-?format=jpg&name=medium" alt="">
-        </div>
-        <div class="col-md-7">
-            <h3>Glóin</h3>
-            <p>
-                Glóin son of Gróin was one of the Dwarves of Thorin II Oakenshield's company who set out to reclaim the Lonely
-                Mountain in the Quest of Erebor. He was also the father of Gimli, who became a member of the Fellowship of the Ring.
-            </p>
-        </div>
-        
-    
-    <div class="row featurette">
-         <div class="col-md-7">
-             <h3>Balin</h3>
-            <p>
-                Balin was likely born in the Lonely Mountain before the coming of the dragon Smaug. He had a younger brother named
-                Dwalin, and was amongst those driven from their homes when Smaug attacked the Lonely Mountain. Afterwards, he may
-                have lived in Dunland as a refugee, before fighting in the War of the Dwarves and Orcs which culminated in the
-                Battle of Azanulbizar. Many years later, in approximately TA 2841, he accompanied Thráin II, the father of Thorin,
-                when he attempted to go back to the Lonely Mountain himself, but Thráin was captured and lost.
-            </p>
-         </div>
-         <div class="col-md-5">
-             <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/14915482_333116127067520_301779498129389125_n.jpg?_nc_cat=110&ccb=3&_nc_sid=85a577&_nc_ohc=29mRCdH4wWwAX9ejaKL&_nc_ht=scontent-lhr8-1.xx&oh=c5cdd897f45c527a87fa98b98e260ce0&oe=605BF536" alt="">
-         </div>     
-   </div>
-        
-    <div class="row featurette">
-        <div class="col-md-5">
-            <img src="https://cdnb.artstation.com/p/assets/images/images/006/278/105/large/hattie-grace-tufty-dwalin-final.jpg?1497357899" alt="">
-        </div>
-        <div class="col-md-7">
-            <h3>Dwalin</h3>
-            <p>
-                Dwalin was one of the Dwarves who traveled with Bilbo and Gandalf as a member of Thorin and Company on the quest to
-                regain the Lonely Mountain from the Dragon Smaug. He was the brother of Balin and the youngest son of Fundin.
-            </p>
-        </div>
-        
-    <div class="row featurette">
-         <div class="col-md-7">
-             <h3>Ori</h3>
-            <p>
-                Ori was a member of Thorin's Company of Dwarves and participated in the Quest of Erebor, as well as fighting in and
-                surviving the Battle of Five Armies. He, along with his cousins Dori and Nori,[2] were remote kinsmen of Thorin II
-                Oakenshield.
-            </p>
-         </div>
-         <div class="col-md-5">
-             <img src="https://cdna.artstation.com/p/assets/images/images/005/909/108/large/martin-stehlik-069.jpg?1494604724" alt="">
-         </div>     
-   </div>
 
-   <div class="row featurette">
-        <div class="col-md-5">
-            <img src="https://cdnb.artstation.com/p/assets/images/images/023/616/495/large/alessandra-scalzo-dori.jpg?1579785098" alt="">
-        </div>
-        <div class="col-md-7">
-            <h3>Dori</h3>
-            <p>
-                Dori was a Dwarf of Durin's Folk, who, along with his brother Nori and cousin Ori, travelled with Bilbo Baggins
-                and Thorin Oakenshield as a member of Thorin's Company on the Quest for Erebor, to reclaim the Lonely Mountain from
-                the dragon Smaug.
-            
-                Dori was among the Dwarves at Bag End who joined in singing about "blunting the knives" and "bending the forks"; as
-                well as accompanying by playing the flute. He was described as “decent fellow despite his grumbling”. He often wore
-                a red-violet coat while on the Quest for Erebor. He was noted by Thorin to be the strongest of the thirteen
-                companions.
-            </p>
-        </div>
 
-    <div class="row featurette">
-         <div class="col-md-7">
-             <h3>Nori</h3>
-            <p>
-                Nori was a Dwarf of Durin's Folk. He had a brother named Dori as well as a cousin named Ori, and was a remote
-                kinsman of Thorin Oakenshield. His hood was purple, he played the flute, and he was very fond of regular and
-                plentiful meals like his hobbit friend, Bilbo Baggins.
-            </p>
-         </div>
-         <div class="col-md-5">
-             <img src="https://64.media.tumblr.com/5a704090264cdf06c6fd956aa389601f/tumblr_mqmxwgxV0c1svd8ceo1_500.jpg" alt="">
-         </div>     
-   </div>
-    
-   <div class="row featurette">
-        <div class="col-md-5">
-            <img src="https://scontent-lhr8-2.xx.fbcdn.net/v/t1.0-9/s960x960/89104227_2705243712929230_2676138455066476544_o.jpg?_nc_cat=105&ccb=3&_nc_sid=8024bb&_nc_ohc=yoSoT_omWYQAX89PrNS&_nc_ht=scontent-lhr8-2.xx&tp=7&oh=25bcbcf17222a96d6ee5afec7bd787f3&oe=605CEA46" alt="">
-        </div>
-        <div class="col-md-7">
-            <h3>Bifur</h3>
-            <p>
-                Bifur was a Dwarf of the late-Third Age. He is best known for being a companion to Bilbo Baggins and Thorin
-                Oakenshield on the quest to regain the Lonely Mountain, along with his cousins Bofur and Bombur.
-            </p>
-        </div>
 
-    <div class="row featurette">
-         <div class="col-md-7">
-             <h3>Bofur</h3>
-            <p>
-                Bofur was a Dwarf of the late-Third Age. He is best known for being companions to Bilbo Baggins, Thorin Oakenshield
-                and Gandalf on the quest to reclaim Lonely Mountain from the dragon Smaug, along with his brother Bombur and cousin
-                Bifur.
-            </p>
-         </div>
-         <div class="col-md-5">
-             <img src="https://th01.deviantart.net/fs71/PRE/i/2013/124/4/1/bofur___the_hobbit_by_windcyclone-d5ycd9w.jpg" alt="">
-   </div>
 
-    <div class="row featurette">
-        <div class="col-md-5">
-            <img src="https://pp.vk.me/c417325/v417325557/4c7c/bmkkE3-lxsU.jpg" alt="">
-        </div>
-        <div class="col-md-7">
-            <h3>Bombur</h3>
-            <p>
-                Bombur was a Dwarf who accompanied Thorin Oakenshield and Bilbo Baggins on their journey to the Lonely Mountain as
-                part of the company, alongside his brother Bofur and cousin Bifur. Bombur was noted as the fattest Dwarf in the
-                company.
-            </p>
-        </div>
 
-    </div>
-{% endblock %}
-    
+
+
+
+            {% for member in company %}
+
+
+                    <div class="row featurette">
+                        
+                            {% if loop.index % 2 != 0 %}
+                            
+                            <div class="col-md-7">
+                                <h3><a href="/about/{{ member.url }}"> {{ loop.index }}.  {{ member.name }}</a></h3>
+                                <p>{{ member.description }}</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
+                            </div>
+                            
+                            {% else %}
+                            
+                            <div class="col-md-5">
+                                <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
+                            </div>
+                            <div class="col-md-7">
+                                <h3><a href="/about/{{ member.url }}"> {{ loop.index }}.  {{ member.name }}</a></h3>
+                                <p>{{ member.description }}</p>
+                            </div>
+
+                            {% endif %}
+
+                        </div>
+                    
+                        {% if loop.index != loop.length  %}  
+
+                        <hr class="featurette-divider">
+
+                        {% endif %}
+
+                {% endfor %}
+
+            {% endblock %}
+                
 
 
